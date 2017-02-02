@@ -105,7 +105,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "rightside",
-				"location": 420,
+				"location": 490,
 				"angle": false,
 				"color": "rgb(204,81,0)",
 				"visible": true,
@@ -138,7 +138,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "max",
-				"location": 400,
+				"location": 470,
 				"angle": false,
 				"color": "rgb(255,193,153)",
 				"visible": true,
@@ -359,6 +359,7 @@
 								"useh2": true
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 420,
 							"xmin": 0,
@@ -492,6 +493,7 @@
 								"useh2": true
 							}
 						],
+						"winding": 3,
 						"maxes": {
 							"xmax": 370,
 							"xmin": 50,
@@ -507,7 +509,9 @@
 					"ratiolock": false
 				}
 			],
-			"usedin": []
+			"usedin": [
+				"0x0064"
+			]
 		},
 		"0x0056": {
 			"objtype": "glyph",
@@ -726,6 +730,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -6,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -971,7 +976,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
@@ -1236,7 +1240,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -1370,7 +1373,6 @@
 								"useh2": true
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 350,
 							"xmin": 0,
@@ -1504,12 +1506,184 @@
 								"useh2": true
 							}
 						],
-						"winding": 5,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
 							"ymax": 150,
 							"ymin": 50
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				}
+			],
+			"usedin": []
+		},
+		"0x0064": {
+			"objtype": "glyph",
+			"name": "Latin Small Letter D",
+			"glyphhtml": "&#100;",
+			"isautowide": true,
+			"glyphwidth": 470,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 470,
+				"xmin": 0,
+				"ymax": 700,
+				"ymin": -10
+			},
+			"shapes": [
+				{
+					"objtype": "componentinstance",
+					"link": "0x006F",
+					"name": "Instance of Latin Small Letter O",
+					"translatex": 0,
+					"translatey": 0,
+					"scalew": 0,
+					"scaleh": 0,
+					"flipew": false,
+					"flipns": false,
+					"reversewinding": false,
+					"rotation": 0,
+					"rotatefirst": false,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false,
+					"visible": true
+				},
+				{
+					"objtype": "shape",
+					"name": "Rectangle 2",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 525,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 432.5,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 470,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 457.5,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 470,
+									"y": 525,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 470,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 470,
+									"y": 175,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 457.5,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 432.5,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 175,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 470,
+							"xmin": 420,
+							"ymax": 700,
+							"ymin": 0
 						}
 					},
 					"visible": true,
