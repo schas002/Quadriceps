@@ -105,7 +105,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "rightside",
-				"location": 70,
+				"location": 420,
 				"angle": false,
 				"color": "rgb(204,81,0)",
 				"visible": true,
@@ -138,7 +138,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "max",
-				"location": 50,
+				"location": 400,
 				"angle": false,
 				"color": "rgb(255,193,153)",
 				"visible": true,
@@ -359,7 +359,6 @@
 								"useh2": true
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 420,
 							"xmin": 0,
@@ -493,7 +492,6 @@
 								"useh2": true
 							}
 						],
-						"winding": 3,
 						"maxes": {
 							"xmax": 370,
 							"xmin": 50,
@@ -873,6 +871,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -1006,6 +1005,7 @@
 								"useh2": true
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 350,
 							"xmin": 0,
@@ -1139,6 +1139,7 @@
 								"useh2": true
 							}
 						],
+						"winding": 3,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
@@ -1311,7 +1312,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 470,
 							"xmin": 420,
@@ -1504,6 +1504,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -1768,7 +1769,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 200,
 							"xmin": 0,
@@ -2070,7 +2070,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 50,
@@ -2204,7 +2203,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 200,
@@ -2413,7 +2411,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -2603,6 +2600,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -2736,6 +2734,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -2888,7 +2887,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -3022,12 +3020,220 @@
 								"useh2": true
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
 							"ymax": 500,
 							"ymin": 450
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				}
+			],
+			"usedin": []
+		},
+		"0x0076": {
+			"objtype": "glyph",
+			"name": "Latin Small Letter V",
+			"glyphhtml": "&#118;",
+			"isautowide": true,
+			"glyphwidth": 400,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 400,
+				"xmin": 0,
+				"ymax": 410,
+				"ymin": 0
+			},
+			"shapes": [
+				{
+					"objtype": "shape",
+					"name": "Shape",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -200,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 550,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -150,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 250,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							}
+						],
+						"winding": 3,
+						"maxes": {
+							"xmax": 400,
+							"xmin": 0,
+							"ymax": 410,
+							"ymin": 0
 						}
 					},
 					"visible": true,
@@ -3367,6 +3573,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -6,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -3634,7 +3841,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
