@@ -1,0 +1,731 @@
+{
+	"projectsettings": {
+		"version": "Version 1.07",
+		"versionnum": "1.07.07",
+		"initialversionnum": "1.07.07",
+		"projectid": "g_TVWHCSIJC",
+		"name": "Quadriceps",
+		"upm": 1000,
+		"ascent": 700,
+		"descent": -300,
+		"capheight": 675,
+		"xheight": 400,
+		"linegap": 250,
+		"italicangle": 0,
+		"griddivisions": 10,
+		"overshoot": 10,
+		"defaultlsb": 20,
+		"defaultrsb": 20,
+		"glyphrange": {
+			"basiclatin": true,
+			"latinsuppliment": false,
+			"latinextendeda": false,
+			"latinextendedb": false,
+			"custom": [],
+			"filternoncharpoints": true
+		},
+		"pointsize": 7,
+		"spinnervaluechange": 1,
+		"renderpointssnappedtogrid": true,
+		"combineshapesonexport": false,
+		"maxcombineshapesonexport": 30,
+		"showkeyboardtipsicon": true,
+		"stoppagenavigation": true,
+		"formatsavefile": true,
+		"showoutline": false,
+		"showfill": true,
+		"guides": {
+			"ascent": {
+				"objtype": "guide",
+				"type": "horizontal",
+				"name": "ascent",
+				"location": 700,
+				"angle": false,
+				"color": "rgb(255,132,51)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"capheight": {
+				"objtype": "guide",
+				"type": "horizontal",
+				"name": "capheight",
+				"location": 675,
+				"angle": false,
+				"color": "rgb(255,193,153)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"xheight": {
+				"objtype": "guide",
+				"type": "horizontal",
+				"name": "xheight",
+				"location": 400,
+				"angle": false,
+				"color": "rgb(255,193,153)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"baseline": {
+				"objtype": "guide",
+				"type": "horizontal",
+				"name": "baseline",
+				"location": 0,
+				"angle": false,
+				"color": "rgb(204,81,0)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"descent": {
+				"objtype": "guide",
+				"type": "horizontal",
+				"name": "descent",
+				"location": -300,
+				"angle": false,
+				"color": "rgb(255,132,51)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"leftside": {
+				"objtype": "guide",
+				"type": "vertical",
+				"name": "leftside",
+				"location": -20,
+				"angle": false,
+				"color": "rgb(204,81,0)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"rightside": {
+				"objtype": "guide",
+				"type": "vertical",
+				"name": "rightside",
+				"location": 20,
+				"angle": false,
+				"color": "rgb(204,81,0)",
+				"visible": true,
+				"showname": true,
+				"editable": false
+			},
+			"zero": {
+				"objtype": "guide",
+				"type": "vertical",
+				"name": "zero",
+				"location": 0,
+				"angle": false,
+				"color": "rgb(255,132,51)",
+				"visible": true,
+				"showname": false,
+				"editable": false
+			},
+			"min": {
+				"objtype": "guide",
+				"type": "vertical",
+				"name": "min",
+				"location": 0,
+				"angle": false,
+				"color": "rgb(255,193,153)",
+				"visible": true,
+				"showname": false,
+				"editable": false
+			},
+			"max": {
+				"objtype": "guide",
+				"type": "vertical",
+				"name": "max",
+				"location": 0,
+				"angle": false,
+				"color": "rgb(255,193,153)",
+				"visible": true,
+				"showname": false,
+				"editable": false
+			}
+		},
+		"snaptogrid": false,
+		"snaptoguides": false,
+		"colors": {
+			"glyphfill": "rgb(0,0,0)",
+			"glyphoutline": "rgb(0,0,0)",
+			"gridlightness": 96,
+			"guide_dark": "rgb(204,81,0)",
+			"guide_med": "rgb(255,132,51)",
+			"guide_light": "rgb(255,193,153)"
+		}
+	},
+	"metadata": {
+		"shared": "{{sectionbreak}}",
+		"font_family": "Quadriceps",
+		"font_style": "regular",
+		"panose_1": "2 0 0 0 0 0 0 0 0 0",
+		"otf": "{{sectionbreak}}",
+		"designer": "Andrew Zyabin",
+		"designerURL": "https://github.com/schas002",
+		"manufacturer": "\"\"",
+		"manufacturerURL": "\"\"",
+		"license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.",
+		"licenseURL": "http://creativecommons.org/licenses/by/4.0/",
+		"version": "Version 1.000",
+		"description": "\"\"",
+		"copyright": "\"\"",
+		"trademark": "\"\"",
+		"svg": "{{sectionbreak}}",
+		"font_variant": "normal",
+		"font_weight": "normal",
+		"font_stretch": "normal",
+		"stemv": "\"\"",
+		"stemh": "\"\"",
+		"slope": "\"\"",
+		"underline_position": -50,
+		"underline_thickness": 10,
+		"strikethrough_position": 300,
+		"strikethrough_thickness": 10,
+		"overline_position": 750,
+		"overline_thickness": 10
+	},
+	"glyphs": {
+		"0x0020": {
+			"objtype": "glyph",
+			"name": "Space",
+			"glyphhtml": "&#32;",
+			"isautowide": false,
+			"glyphwidth": 500,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x0041": {
+			"objtype": "glyph",
+			"name": "Latin Capital Letter A",
+			"glyphhtml": "&#65;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 0,
+				"xmin": 0,
+				"ymax": 0,
+				"ymin": 0
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x006F": {
+			"objtype": "glyph",
+			"name": "Latin Small Letter O",
+			"glyphhtml": "&#111;",
+			"isautowide": true,
+			"glyphwidth": 420,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 420,
+				"xmin": 0,
+				"ymax": 410,
+				"ymin": -10
+			},
+			"shapes": [
+				{
+					"objtype": "shape",
+					"name": "Black",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 210,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 110,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 310,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 420,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 210,
+									"y": -10,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 310,
+									"y": -10,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 110,
+									"y": -10,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"maxes": {
+							"xmax": 420,
+							"xmin": 0,
+							"ymax": 410,
+							"ymin": -10
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				},
+				{
+					"objtype": "shape",
+					"name": "Black (copy)",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 210,
+									"y": 40,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 133.8095238095238,
+									"y": 40,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 286.1904761904762,
+									"y": 40,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 370,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 370,
+									"y": 123.8095238095238,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 370,
+									"y": 276.1904761904762,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 210,
+									"y": 360,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 286.1904761904762,
+									"y": 360,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 133.8095238095238,
+									"y": 360,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 276.1904761904762,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 123.8095238095238,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": null,
+						"maxes": {
+							"xmax": 370,
+							"xmin": 50,
+							"ymax": 360,
+							"ymin": 40
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				}
+			],
+			"usedin": []
+		},
+		"0x0056": {
+			"objtype": "glyph",
+			"name": "Latin Capital Letter V",
+			"glyphhtml": "&#86;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x0057": {
+			"objtype": "glyph",
+			"name": "Latin Capital Letter W",
+			"glyphhtml": "&#87;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x0059": {
+			"objtype": "glyph",
+			"name": "Latin Capital Letter Y",
+			"glyphhtml": "&#89;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		}
+	},
+	"ligatures": {
+		"0x00660x00660x0069": {
+			"objtype": "glyph",
+			"name": "&#102;&#102;&#105;",
+			"glyphhtml": "&#102;&#102;&#105;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 0,
+				"xmin": 0,
+				"ymax": 0,
+				"ymin": 0
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x00660x00660x006C": {
+			"objtype": "glyph",
+			"name": "&#102;&#102;&#108;",
+			"glyphhtml": "&#102;&#102;&#108;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x00660x0066": {
+			"objtype": "glyph",
+			"name": "&#102;&#102;",
+			"glyphhtml": "&#102;&#102;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 0,
+				"xmin": 0,
+				"ymax": 0,
+				"ymin": 0
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x00660x0069": {
+			"objtype": "glyph",
+			"name": "&#102;&#105;",
+			"glyphhtml": "&#102;&#105;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		},
+		"0x00660x006C": {
+			"objtype": "glyph",
+			"name": "&#102;&#116;",
+			"glyphhtml": "&#102;&#116;",
+			"isautowide": true,
+			"glyphwidth": 0,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": -999999,
+				"xmin": 999999,
+				"ymax": -999999,
+				"ymin": 999999
+			},
+			"shapes": [],
+			"usedin": []
+		}
+	},
+	"kerning": {
+		"id1": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0041"
+			],
+			"rightgroup": [
+				"0x0056",
+				"0x0057",
+				"0x0059"
+			],
+			"value": 0
+		},
+		"id2": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0041"
+			],
+			"rightgroup": [
+				"0x0043",
+				"0x004F"
+			],
+			"value": 0
+		},
+		"id3": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0056",
+				"0x0057",
+				"0x0059"
+			],
+			"rightgroup": [
+				"0x0041"
+			],
+			"value": 0
+		},
+		"id4": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0046",
+				"0x0050"
+			],
+			"rightgroup": [
+				"0x0041"
+			],
+			"value": 0
+		},
+		"id5": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x004F"
+			],
+			"rightgroup": [
+				"0x0041"
+			],
+			"value": 0
+		},
+		"id6": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x004C"
+			],
+			"rightgroup": [
+				"0x0054",
+				"0x0056",
+				"0x0057"
+			],
+			"value": 0
+		}
+	},
+	"components": {}
+}
