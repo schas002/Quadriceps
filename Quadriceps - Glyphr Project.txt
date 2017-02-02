@@ -105,7 +105,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "rightside",
-				"location": 420,
+				"location": 70,
 				"angle": false,
 				"color": "rgb(204,81,0)",
 				"visible": true,
@@ -138,7 +138,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "max",
-				"location": 400,
+				"location": 50,
 				"angle": false,
 				"color": "rgb(255,193,153)",
 				"visible": true,
@@ -359,6 +359,7 @@
 								"useh2": true
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 420,
 							"xmin": 0,
@@ -492,6 +493,7 @@
 								"useh2": true
 							}
 						],
+						"winding": 3,
 						"maxes": {
 							"xmax": 370,
 							"xmin": 50,
@@ -871,7 +873,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -1005,7 +1006,6 @@
 								"useh2": true
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 350,
 							"xmin": 0,
@@ -1139,7 +1139,6 @@
 								"useh2": true
 							}
 						],
-						"winding": 3,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
@@ -1312,6 +1311,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 470,
 							"xmin": 420,
@@ -1504,7 +1504,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -1769,6 +1768,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 200,
 							"xmin": 0,
@@ -2070,6 +2070,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 50,
@@ -2203,6 +2204,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 200,
@@ -2411,6 +2413,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -2600,7 +2603,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
@@ -2734,12 +2736,298 @@
 								"useh2": false
 							}
 						],
-						"winding": -5,
 						"maxes": {
 							"xmax": 400,
 							"xmin": 0,
 							"ymax": 330,
 							"ymin": 70
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				}
+			],
+			"usedin": []
+		},
+		"0x0069": {
+			"objtype": "glyph",
+			"name": "Latin Small Letter I",
+			"glyphhtml": "&#105;",
+			"isautowide": true,
+			"glyphwidth": 50,
+			"leftsidebearing": false,
+			"rightsidebearing": false,
+			"ratiolock": false,
+			"maxes": {
+				"xmax": 50,
+				"xmin": 0,
+				"ymax": 500,
+				"ymin": 0
+			},
+			"shapes": [
+				{
+					"objtype": "shape",
+					"name": "Line",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 307.5,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 12.5,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 37.5,
+									"y": 410,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 307.5,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 102.5,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 37.5,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 12.5,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 102.5,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 50,
+							"xmin": 0,
+							"ymax": 410,
+							"ymin": 0
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				},
+				{
+					"objtype": "shape",
+					"name": "Dot",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 475,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 25,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 475,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 25,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 50,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 50,
+							"xmin": 0,
+							"ymax": 500,
+							"ymin": 450
 						}
 					},
 					"visible": true,
@@ -3079,7 +3367,6 @@
 								"useh2": false
 							}
 						],
-						"winding": -6,
 						"maxes": {
 							"xmax": 50,
 							"xmin": 0,
@@ -3347,6 +3634,7 @@
 								"useh2": false
 							}
 						],
+						"winding": -5,
 						"maxes": {
 							"xmax": 300,
 							"xmin": 50,
